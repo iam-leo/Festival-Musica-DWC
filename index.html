@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockordoba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rockordoba</h1>
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#entradas">Entradas</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rockordoba Festival</h2>
+                <p>Octubre 2022, Córdoba, Argentina</p>
+            </div>
+        </div>
+        <video autoplay loop muted>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+
+                <img src="build/img/imagen_vocalista.jpg" width="200" height="300" alt="imagen vocalista" loading="lazy">
+            </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>Rockordoba está de regreso.</h2>
+            <p class="fecha">Octubre 2022, Plaza de la música, Córdoba.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quisquam non assumenda veritatis corporis est sint obcaecati sapiente? Magni praesentium dolor tempore, distinctio beatae ipsum quisquam nihil blanditiis! Voluptates consequuntur nulla repellendus esse commodi numquam cupiditate architecto porro dolorum facere</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 21</p>
+        <div class="contenedor escenarios-contenedor">
+            <div class="escenario norte bg-amarillo">
+                <p class="nombre-escenario">Escenario Norte</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Divididos</span>
+                    </li>
+                    <li>
+                        22:00 | <span>La vela puerca</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Airbag</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Los Autenticos decadentes</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Kapanga</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Eruca Sativa</span>
+                    </li>
+                </ul>
+            </div> <!-- .escenario-->
+
+            <div class="escenario sur bg-verde">
+                <p class="nombre-escenario">Escenario Sur</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Fito Páez</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Nicki Nicole</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Julieta Venegas</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Natalie Perez</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Maria Becerra</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Luck Ra</span>
+                    </li>
+                </ul>
+            </div> <!-- .escenario-->
+        </div> <!-- .escenarios-contenedor -->
+
+        <p class="dia">Sábado 22</p>
+        <div class="contenedor escenarios-contenedor">
+            <div class="escenario norte bg-verde">
+                <p class="nombre-escenario">Escenario Norte</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>No Te Va Gustar</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Ciro y los persas</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Las Pelotas</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Skay y los fakires</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Los Caligaris</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Cruzando el charco</span>
+                    </li>
+                </ul>
+            </div> <!-- .escenario-->
+
+            <div class="escenario sur bg-amarillo">
+                <p class="nombre-escenario">Escenario Sur</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>WOS</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Miranda!</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Julieta Venegas</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Soy Rada and The colibriquis</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Turf</span>
+                    </li>
+                    <li>
+                        17:00 | <span>El Kuelgue</span>
+                    </li>
+                </ul>
+            </div> <!-- .escenario-->
+        </div> <!-- .escenarios-contenedor -->
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+        <ul class="galeria-imagenes">
+
+        </ul>
+    </section>
+
+    <section id="entradas" class="entradas bg-verde">
+        <h3>Entradas</h3>
+        <div class="contenedor contenedor-entradas">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$1500</p>
+                </footer>
+            </div>
+
+            <div class="premium pase">
+                <p class="nombre-pase">Pase 2 día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                        <li>Remera</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$3500</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Rockordoba Festival. Todos los derechos reservados. 2022 &copy;</p>
+    </footer>
+    <script src="build/js/app.js"></script>
+</body>
+</html>
